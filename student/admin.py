@@ -2,7 +2,7 @@ from django import forms
 from django.contrib import admin
 from .models import *
 from django.contrib.auth.models import User
-from .task import admin_check
+#from .task import admin_check
 
 class ScienceAdmin(admin.ModelAdmin):
     order = 4
@@ -35,7 +35,7 @@ class ArchiveQuestionAdmin(admin.ModelAdmin):
     ordering = ('question',)
 
 class ResultAdmin(admin.ModelAdmin):
-    admin_check()
+    #admin_check()
     order = 10
     list_display = ('test', 'student', 'result', 'status', 'duration', 'finished', 'date')
     ordering = ('-date',)

@@ -126,10 +126,10 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / "static"
 
 JAZZMIN_SETTINGS = {
-    "site_brand": "Akt Bilim Admin",
-    "welcome_sign": "Akt bilim adminiga xush kelibsiz!",
-    "site_title": "Akt bilim admin paneli",
-    "site_header": "Akt bilim",
+    "site_brand": "Quiz Admin",
+    "welcome_sign": "Quiz adminiga xush kelibsiz!",
+    "site_title": "Quiz admin paneli",
+    "site_header": "Quiz",
     "changeform_format": "collapsible",
-    "copyright": "Akt bilim",
+    "copyright": "Quiz",
 }
